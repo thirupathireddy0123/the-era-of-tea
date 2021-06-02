@@ -395,3 +395,21 @@ footer{
 #p-square-signup-page a{
   text-decoration: none;
 }
+.error-404{
+  text-align:center;
+  position: relative;
+  top: 0px;
+}
+#error-404-id{
+  font-size: bold;
+  font-size: 84px;
+  padding: 0;
+}
+#p1-error, #p2-error{
+  font-size: 20px;
+}
+#error-page-emoji{
+  position: relative;
+  left: 870px;
+  top: 20px;
+}
