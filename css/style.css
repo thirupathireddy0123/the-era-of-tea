@@ -1,0 +1,397 @@
+body {
+  max-width: 100%;
+  margin: auto;
+}
+
+/*navbar*/
+.navbar {
+  overflow: hidden;
+  background-color: #4f8989;
+}
+.navbar a {
+  float: right;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: #4f8995;
+  color: white;
+}
+.navbar a.active {
+  background-color: #1f6a7e;
+  color: white;
+}
+
+/*slider*/
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  top: 5px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/*Banner*/
+
+.banner{
+  background-color: #4f8989;
+  height: 50px;
+  overflow: hidden;
+  display: grid;
+  text-align: center;
+  grid-template-columns:250px 250px;
+}
+.banner-col-1{
+  position: relative;
+  height: 30px;top: 10px;
+  width: 170px;
+  background-color: #1f6a7e;
+  left: 650px;
+  font-weight: bold;
+}
+.banner-col-1 a{
+  position: relative;
+  top: 7px;
+  text-decoration: none;
+  color: white;
+}
+.banner-col-2{
+  top: 10px;
+  position: relative;
+  height: 30px;
+  width: 270px;
+  background-color: #1f6a7e;
+  left: 700px;
+  font-weight: bold;
+}
+.banner-col-2 a{
+  position: relative;
+  top: 7px;text-decoration: none;
+  color: white;
+}
+.banner-col-1:hover {
+  background-color: #4f8995;
+  color: white;
+}
+.banner-col-2:hover {
+  background-color: #4f8995;
+  color: white;
+}
+footer{
+  width: auto;
+  height: 60px;
+}
+#footer{
+  overflow: hidden;
+  background-color: #4f8989;
+}
+#footer p{
+  text-align: center;
+  color: white;
+  font-size: 17px;
+}
+#row-1{
+  width: 900px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  top: 10px;
+  left: 150px;
+}
+.row-1-col-1{
+  text-align: center;
+}
+#col-1-p1{
+  font-weight: bold;
+}
+.row-1-col-1 a{
+  text-decoration: none;
+  position: relative;
+  top: -11px;
+}
+.row-1-col-2{
+  text-align: center;
+}
+#col-2-p2{
+  font-weight: bold;
+}
+.row-1-col-2 a{
+  text-decoration: none;
+  position: relative;
+  top: -11px;
+}
+.row-1-col-3{
+  text-align: center;
+}
+#col-3-p3{
+  font-weight: bold;
+}
+.row-1-col-3 a{
+  text-decoration: none;
+  position: relative;
+  top: -11px;
+}
+#row-2{
+  position: relative;
+  display: grid;
+  width: 900px;
+  grid-template-columns: 250px 250px 250px;
+  top: 10px;
+  left: 150px;
+}
+.row-2-col-1{
+  text-align: center;
+}
+.row-2-col-1 a{
+  text-decoration: none;
+  position: relative;
+  top: -11px;
+}
+.row-2-col-2{
+  text-align: center;
+}
+.row-2-col-2 a{
+  text-decoration: none;
+  position: relative;
+  top: -11px;
+}
+.subscribe{
+  position: relative;
+  width: 250px;
+  left: 713px;
+  top: -110px;
+}
+.copyrights-t-and-c{
+  height: 30px;
+  background-color: #4f8989;
+  text-align: center;
+}
+.copyrights-t-and-c a{
+  text-decoration: none;
+  color: white;
+}
+#sp1, #sp2{
+  color: white;
+  text-align: center;
+}
+#h1{
+  position: relative;
+  left: 90px;
+  width: 360px;
+}
+/*if you using grid system
+#k-row{
+  position: relative;
+  left:90px;
+  display: grid;
+  max-width: 1600px;
+  grid-template-columns: repeat(5, 300px);
+}*/
+
+#kcp1, #kcp2, #kcp3, #kcp4, #kcp5{
+  text-align: center;
+  font-weight: bolder;
+}
+#prod-img{
+  position: relative;
+  left: 110px;
+  border-radius: 9px;
+}
+#k-c2-prod-name{
+  position: relative;
+  left: 5px;
+}
+#k-c3-prod-price, #k-c5-prod-price{
+  text-align: center;
+}
+#k-c4-prod-quan{
+  position: relative;
+  left: 115px;
+}
+.Subtotal{
+  position: relative;
+  width: 150px;
+  left: 1200px;
+  text-align: center;
+}
+#subtotal-price{
+  font-size: 22px;
+}
+.check-out{
+  position: relative;
+  background-color: #52c508;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  left:870px;
+}
+.check-out a{
+    text-decoration: none;
+    color: white;
+    top: 11px;
+    position: relative;
+}
+.check-out:hover{
+  background-color: #76e52e;
+}
+.square-login-page{
+  clear: both;
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 720px;
+  color: black;
+  top: 70px;
+}
+#p-square-signin-page{
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+#p-square-signin-page a{
+  text-decoration: none;
+}
+#h3-login{
+  position: relative;
+  text-align: center;
+}
+.button-primary{
+  background-color:#ff0000;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  border-radius: 40px;
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+.button-primary a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 5px;
+}
+.button-primary:hover{
+  background-color:#5dff00;
+}
+#label{
+  position: relative;
+  left: 110px;
+}
+#input{
+  position: relative;
+  left: 25px;
+}
+.square-signup-page{
+  clear: both;
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  border-style: solid;
+  height: 500px;
+  width: 300px;
+  position: relative;
+  left: 720px;
+  color: black;
+  top: 70px;
+}
+#h3-signup{
+  position: relative;
+  text-align: center;
+}
+#p-square-signup-page{
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+#p-square-signup-page a{
+  text-decoration: none;
+}
