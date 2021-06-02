@@ -43,3 +43,6 @@ This is the basic web site design template
    </table>
  </body>
   </html> 
+# external documents
+this is the ppt:<a href="https://github.com/SaiGaneshReddy3648/the-era-of-tea/blob/main/A%20clear%20vision%20of%20Tea.pptx">the clear vision of tea</a> <br>
+this is the document: <a href="https://github.com/SaiGaneshReddy3648/the-era-of-tea/blob/main/Tea.docx">the clear vision of tea</a>
