@@ -291,4 +291,27 @@ footer{
 .Subtotal{
   position: relative;
   width: 150px;
+  left: 1660px;
+  text-align: center;
+}
+#subtotal-price{
+  font-size: 22px;
+}
+.check-out{
+  position: relative;
+  background-color: #52c508;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  text-align: center;
+  left:870px;
+}
+.check-out a{
+    text-decoration: none;
+    color: white;
+    top: 11px;
+    position: relative;
+}
+.check-out:hover{
+  background-color: #76e52e;
 }
