@@ -174,6 +174,7 @@ footer{
   font-size: 17px;
 }
 #row-1{
+  width: 900px;
   position: relative;
   display: grid;
   grid-template-columns: 250px 250px 250px;
@@ -216,6 +217,7 @@ footer{
 #row-2{
   position: relative;
   display: grid;
+  width: 900px;
   grid-template-columns: 250px 250px 250px;
   top: 10px;
   left: 150px;
@@ -238,6 +240,7 @@ footer{
 }
 .subscribe{
   position: relative;
+  width: 250px;
   left: 713px;
   top: -110px;
 }
@@ -291,7 +294,7 @@ footer{
 .Subtotal{
   position: relative;
   width: 150px;
-  left: 1660px;
+  left: 1200px;
   text-align: center;
 }
 #subtotal-price{
@@ -314,4 +317,81 @@ footer{
 }
 .check-out:hover{
   background-color: #76e52e;
+}
+.square-login-page{
+  clear: both;
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  border-style: solid;
+  height: 300px;
+  width: 300px;
+  position: relative;
+  left: 720px;
+  color: black;
+  top: 70px;
+}
+#p-square-signin-page{
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+#p-square-signin-page a{
+  text-decoration: none;
+}
+#h3-login{
+  position: relative;
+  text-align: center;
+}
+.button-primary{
+  background-color:#ff0000;
+  width: 90px;
+  height: 30px;
+  text-align: center;
+  border-radius: 40px;
+  position: relative;
+  left: 100px;
+  top: 40px;
+}
+.button-primary a{
+  text-decoration: none;
+  color: white;
+  position: relative;
+  top: 5px;
+}
+.button-primary:hover{
+  background-color:#5dff00;
+}
+#label{
+  position: relative;
+  left: 110px;
+}
+#input{
+  position: relative;
+  left: 25px;
+}
+.square-signup-page{
+  clear: both;
+  background-color: white;
+  border-color: black;
+  border-radius: 20px;
+  border-style: solid;
+  height: 500px;
+  width: 300px;
+  position: relative;
+  left: 720px;
+  color: black;
+  top: 70px;
+}
+#h3-signup{
+  position: relative;
+  text-align: center;
+}
+#p-square-signup-page{
+  text-align: center;
+  position: relative;
+  top: 35px;
+}
+#p-square-signup-page a{
+  text-decoration: none;
 }
